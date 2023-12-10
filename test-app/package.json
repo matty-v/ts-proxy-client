@@ -8,8 +8,6 @@
     "dev-linux": "export $(cat .env | xargs) && npm run dev",
     "dev-windows": "(for /F \"tokens=*\" %i in (.env) do set %i) && npm run dev"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "@emotion/react": "^11.7.1",
