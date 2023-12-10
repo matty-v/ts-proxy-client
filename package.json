@@ -1,6 +1,6 @@
 {
   "name": "ts-proxy-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A client library for interacting with my personal CORS proxy",
   "scripts": {
     "build": "tsc -p .",
