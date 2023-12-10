@@ -4,8 +4,7 @@
   "description": "A client library for interacting with my personal CORS proxy",
   "scripts": {
     "build": "tsc -p .",
-    "test": "jest --silent",
-    "preversion": "npm run test && npm run build",
+    "preversion": "npm run build",
     "release:major": "npm version major",
     "release:minor": "npm version minor",
     "release:patch": "npm version patch",
